@@ -1,0 +1,180 @@
+/* 　↓　todo_input.php & todo_read.php */
+body{
+      background-color: #999900;
+}
+/*　↓　todo_input.php*/
+
+h2{
+      color: white;
+      font-size: 50px;
+}
+
+.container{
+      margin: 20px ;
+      color: white;
+      font-size: 23px;
+      position: static;
+      margin: 0 auto;
+      border: dotted; white;
+      background-color: inherit;
+      width: 353px;
+
+
+}
+
+.remarks{
+      margin: 20px ;
+      color: white;
+      font-size: 23px;
+      position: static;
+      margin: 0 auto;
+      border: dotted; white;
+      background-color: inherit;
+      width: 353px;
+
+}
+
+
+
+#add{
+      display: inline-block;
+      color: #009900;
+      text-decoration: none;
+      border-radius: 4px;
+      border: medium none;
+      position: static;
+      cursor: pointer;
+      margin: 10px;
+      vertical-align: middle;
+      width: 100%;
+      text-align: center;
+      height: 35px;
+      width: 94px;
+      font-size: 30px;
+      font-style: normal;
+      font-family: sans-serif;
+
+}
+
+.remarks textarea{
+      width: 97%;
+}
+#add:hover{
+      color: #003300;
+}
+
+a:hover{
+      color: red;
+
+}
+
+/*　↓　todo_read.php*/
+
+.list{
+      background-color: white;
+      border-width: thick;
+      border-color: white;
+      border-style: solid;
+      position: static;
+      width: 385px;
+      height: auto;
+      padding: 10px;
+      margin: 10px auto;
+      padding: 5px;
+
+}
+
+img{
+      margin-left: 10px;
+      margin-top: 0px;
+}
+
+
+label#task,#remarks,#prime{
+      color: #00d200;
+      font-size: 21px;
+      font-style: oblique;
+      margin: 5px;
+
+}
+
+
+#dorayaki{
+      background-color: inherit;
+      backface-visibility: hidden;
+}
+
+
+
+
+
+l{
+      color:  #663300;
+      position: relative;
+      font-style: normal;
+      font-family: fantasy;
+      font-size: 18px;
+      font-weight: bold;
+
+}
+
+#update{
+      color: #ff773e;
+      background-color: #ffdbc9;
+      height: 30px;
+      margin-top: 10px;
+      font-weight: bold;
+
+}
+#finish{
+
+      display: inline-block;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      border: medium none;
+      position: relative;
+      cursor: pointer;
+      margin-top: 10px;
+      vertical-align: middle;
+      width: 100%;
+      text-align: center;
+      height: 41px;
+      width: 244px;
+      font-size: 30px;
+      font-style: normal;
+      font-family: serif;
+      background-color: #663300;
+      box-shadow: red;
+
+}
+
+#delete{
+      color: #ff773e;
+      background-color: #ffdbc9;
+      height: 30px;
+      margin-top: 10px;
+      font-weight: bold;
+}
+
+h3{
+      color: white;
+      font-size: 50px;
+      font-style: italic;
+      font-family: sans-serif;
+}
+
+#move{
+      background-color: white;
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      height: 29px;
+      width: 184px;
+      font-size: 23px;
+      display: inline-block;
+      border-radius: 4px;
+      text-align: center;
+
+
+}
